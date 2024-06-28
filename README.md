@@ -13,7 +13,7 @@ yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom 
 ```
 
 ## clone repo directly to your .config 
-> Warning: this will replace files in .config
+> WARNING: THIS WILL REPLACE FILES!!!
 ```bash	
 git clone https://github.com/presstek2258/endeavouros-dotfiles.git ~/temp-config
 sudo cp -r ~/temp-config/. ~/
@@ -23,6 +23,7 @@ rm -rf ~/temp-config
 ```bash
 chsh -s /bin/zsh
 ```
+> RE-LOG: relog to apply the changes
 
 ## stuff to manually configure
 - change font size (16 for everything)
