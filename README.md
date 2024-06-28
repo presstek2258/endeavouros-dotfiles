@@ -9,7 +9,7 @@
 yay -Syu
 ```
 ```bash
-yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom zoxide neovim pcloud-drive google-chrome xfce4-settings xclip ttf-jetbrains-mono
+yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom zoxide neovim pcloud-drive google-chrome xfce4-settings xclip ttf-jetbrains-mono ripgrep
 ```
 
 ## clone repo directly to your .config 
