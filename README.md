@@ -4,8 +4,10 @@
 ## install instructions
 - install endeavouros with i3
 
-`yay -Syu`
-
+## update and install requirements
+```bash
+yay -Syu
+```
 ```bash
 yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom zoxide neovim pcloud-drive google-chrome xfce4-settings xclip
 ```
