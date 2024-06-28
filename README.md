@@ -12,9 +12,12 @@ yay -Syu
 yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom zoxide neovim pcloud-drive google-chrome xfce4-settings xclip
 ```
 
-## clone repo
+## clone repo directly to your .config 
+> Warning: this will replace files in .config
 ```
-git clone https://github.com/presstek2258/endeavouros-dotfiles.git ~/.config
+git clone https://github.com/presstek2258/endeavouros-dotfiles.git ~/temp-config
+cp -r ~/temp-config/. ~/
+rm -rf ~/temp-config
 ```
 
 ## stuff to manually configure
