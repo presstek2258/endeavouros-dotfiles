@@ -19,9 +19,10 @@ git clone https://github.com/presstek2258/endeavouros-dotfiles.git ~/temp-config
 sudo cp -r ~/temp-config/. ~/
 rm -rf ~/temp-config
 ```
-## change the alacritty shell
+## change shell / uninstall xterm and xfcer-terminal
 ```bash
 chsh -s /bin/zsh
+yay -R xterm xfce4-terminal endeavouros-xfce4-terminal-colors
 ```
 > RE-LOG: relog to apply the changes
 
