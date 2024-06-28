@@ -16,7 +16,7 @@ yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom 
 > Warning: this will replace files in .config
 ```
 git clone https://github.com/presstek2258/endeavouros-dotfiles.git ~/temp-config
-cp -r ~/temp-config/. ~/
+sudo cp -r ~/temp-config/. ~/
 rm -rf ~/temp-config
 ```
 
