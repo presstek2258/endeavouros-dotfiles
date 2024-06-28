@@ -9,15 +9,19 @@
 yay -Syu
 ```
 ```bash
-yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom zoxide neovim pcloud-drive google-chrome xfce4-settings xclip
+yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom zoxide neovim pcloud-drive google-chrome xfce4-settings xclip ttf-jetbrains-mono
 ```
 
 ## clone repo directly to your .config 
 > Warning: this will replace files in .config
-```
+```bash	
 git clone https://github.com/presstek2258/endeavouros-dotfiles.git ~/temp-config
 sudo cp -r ~/temp-config/. ~/
 rm -rf ~/temp-config
+```
+## change the alacritty shell
+```bash
+chsh -s /bin/zsh
 ```
 
 ## stuff to manually configure
