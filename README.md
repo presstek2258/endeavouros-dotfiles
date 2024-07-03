@@ -38,3 +38,23 @@ yay -R xterm xfce4-terminal endeavouros-xfce4-terminal-colors
 - install obsidian
 	- set vault
 	- set border to native in appearance
+
+## Fix brightness keys
+changing from xbacklight to brightnessctl might fix it
+```bash
+yay -S brightnessctl
+```
+change to code in `~/.config/i3/scripts/volume_brightness.sh`
+```shell
+brightness_up)
+	# Increases brightness and displays the notification
+	brightnessctl set +10%
+	show_brightness_notif
+	;;
+
+brightness_down)
+	# Decreases brightness and displays the notification
+	brightnessctl set 10%-
+	show_brightness_notif
+	;;
+ ```
