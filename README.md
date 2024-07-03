@@ -40,7 +40,7 @@ yay -R xterm xfce4-terminal endeavouros-xfce4-terminal-colors
 	- set border to native in appearance
 
 ## Fix brightness keys
-changing from xbacklight to brightnessctl might fix it
+> changing from xbacklight to brightnessctl might fix it
 ```bash
 yay -S brightnessctl
 ```
