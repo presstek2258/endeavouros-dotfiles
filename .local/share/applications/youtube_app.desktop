@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Version=1.0
+Name=Youtube -App 
+Comment=Launch Youtube in Google Chrome
+Exec=google-chrome-stable --app=https://youtube.com 
+Icon=youtube
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;

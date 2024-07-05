@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Version=1.0
+Name=Canvas -App 
+Comment=Launch Canvas in Google Chrome
+Exec=google-chrome-stable --app=https://learn.ontariotechu.ca
+Icon=google-chrome
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;

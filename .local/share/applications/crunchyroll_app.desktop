@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Version=1.0
+Name=Crunchyroll -App 
+Comment=Launch Crunchyroll in Google Chrome
+Exec=google-chrome-stable --app=https://www.crunchyroll.com/videos/anime
+Icon=google-chrome
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;

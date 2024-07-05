@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Version=1.0
+Name=ChatGPT -App
+Comment=Launch ChatGPT in Google Chrome
+Exec=google-chrome-stable --app=https://chat.openai.com
+Icon=google-chrome
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
