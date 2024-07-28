@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Version=1.0
+Name=Study Statistics and Probability 
+Comment=opens applications needed for studying stats
+Exec=/home/adrian/study_stats.sh
+Icon=thunar
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;

@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Version=1.0
+Name=Google Calendar -App
+Comment=Launch google calendar in Google Chrome
+Exec=google-chrome-stable --app=https://calendar.google.com
+Icon=google-chrome
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
