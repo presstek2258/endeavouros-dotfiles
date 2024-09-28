@@ -59,7 +59,7 @@ brightness_down)
 	;;
  ```
 ## Fix opening links with "gx" in neovim
-> add the following lines to ```~/.config/mimeapps.list```
+add the following lines to ```~/.config/mimeapps.list```
 ```
 text/html=google-chrome.desktop
 x-scheme-handler/http=google-chrome.desktop
