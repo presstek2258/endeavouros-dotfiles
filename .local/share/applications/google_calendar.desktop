@@ -2,9 +2,9 @@
 [Desktop Entry]
 Version=1.0
 Name=Google Calendar -App
-Comment=Launch google calendar in Google Chrome
-Exec=google-chrome-stable --app=https://calendar.google.com
-Icon=google-chrome
+Comment=Launch google calendar 
+Exec=brave --app=https://calendar.google.com
+Icon=brave
 Terminal=false
 Type=Application
 Categories=Network;WebBrowser;

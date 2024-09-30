@@ -2,9 +2,9 @@
 [Desktop Entry]
 Version=1.0
 Name=Incognito Browser
-Comment=Launches google chrome in Incognito mode
-Exec=google-chrome-stable --incognito 
-Icon=google-chrome
+Comment=Launches Brave in private mode
+Exec=brave --incognito 
+Icon=brave
 Terminal=false
 Type=Application
 Categories=Network;WebBrowser;

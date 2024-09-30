@@ -2,9 +2,9 @@
 [Desktop Entry]
 Version=1.0
 Name=Github -App 
-Comment=Launch Github in Google Chrome
-Exec=google-chrome-stable --app=https://www.github.com
-Icon=google-chrome
+Comment=Launch Github
+Exec=brave --app=https://www.github.com
+Icon=brave
 Terminal=false
 Type=Application
 Categories=Network;WebBrowser;
