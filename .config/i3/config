@@ -56,6 +56,9 @@ bindsym $mod+Tab workspace next
 # start a terminal
 bindsym $mod+Return exec --no-startup-id alacritty
 
+# start brave Browser
+bindsym $mod+b exec --no-startup-id brave
+
 # kill focused window
 bindsym $mod+q kill
 
