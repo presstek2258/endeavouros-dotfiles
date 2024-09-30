@@ -86,7 +86,7 @@ x-scheme-handler/https=google-chrome.desktop
 use these for brave instead of google chrome
 
 ```
-text/html=google-chrome.desktop
+text/html=brave.desktop
 x-scheme-handler/http=brave.desktop
 x-scheme-handler/https=brave.desktop
 ```
