@@ -45,9 +45,6 @@ yay -R xterm xfce4-terminal endeavouros-xfce4-terminal-colors
   - (this loads picom starship zsh and zoxide)
 - change lock screen wallpaper
   - in /etc/lightdm/slick...
-- install obsidian
-  - set vault
-  - set border to native in appearance
 
 ## Fix brightness keys
 
