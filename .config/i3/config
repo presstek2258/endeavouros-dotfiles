@@ -25,7 +25,7 @@ exec --no-startup-id pcloud
 exec --no-startup-id picom
 
 # set wallpaper
-exec_always --no-startup-id sleep 1 && feh --bg-fill /home/adrian/Downloads/space-forest-wallpaper.jpg 
+exec_always --no-startup-id sleep 1 && feh --bg-fill ~/space-forest-wallpaper.jpg 
 
 # get auth work with polkit-gnome
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
