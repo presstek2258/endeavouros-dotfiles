@@ -13,7 +13,7 @@ yay -Syu
 ```
 
 ```bash
-yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom zoxide neovim pcloud-drive brave-bin htop xfce4-settings xclip ttf-jetbrains-mono ripgrep
+yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom zoxide neovim pcloud-drive brave-bin htop xfce4-settings xclip ttf-jetbrains-mono ripgrep blueman shutter jupyterlab jdk libreoffice-still neofetch npm thonny
 ```
 
 ## clone repo directly to your .config / .local
@@ -72,7 +72,7 @@ brightness_down)
 
 ## Fix opening links with "gx" in neovim
 
-add the following lines to `~/.config/mimeapps.list`
+add the following lines to `mimeapps.list`
 
 ```
 text/html=google-chrome.desktop
