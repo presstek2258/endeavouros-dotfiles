@@ -3,12 +3,12 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "<leader>jj", function()
-  -- press o in normal mode 12 times
-  for _ = 1, 12 do
+  -- press o in normal mode 30 times
+  for _ = 1, 30 do
     vim.api.nvim_command("normal! o")
   end
 
-  -- jump 11 lines back up and then enter Insert mode
-  vim.api.nvim_command("normal! 11k")
+  -- jump 29 lines back up and then enter Insert mode
+  vim.api.nvim_command("normal! 29k")
   vim.api.nvim_command("startinsert")
-end, { desc = "Insert 12 new lines and jump back up" })
+end, { desc = "Insert 30 new lines and jump back up" })
