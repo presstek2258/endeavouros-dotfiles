@@ -95,3 +95,4 @@ download the agent to the `Immersed/` folder:
 ```
 https://immersed.com/download
 ```
+> App Image file and run_immersed.sh need execute permissions
