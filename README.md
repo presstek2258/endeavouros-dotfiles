@@ -87,3 +87,11 @@ text/html=brave.desktop
 x-scheme-handler/http=brave.desktop
 x-scheme-handler/https=brave.desktop
 ```
+
+## Immersed meta quest 3 setup
+
+download the agent to the `Immersed/` folder:
+
+```
+https://immersed.com/download
+```
