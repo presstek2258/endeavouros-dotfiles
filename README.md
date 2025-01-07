@@ -96,3 +96,21 @@ download the agent to the `Immersed/` folder:
 https://immersed.com/download
 ```
 > App Image file and run_immersed.sh need execute permissions
+
+## Virtual Box setup
+
+uncheck "Auto capture keyboard" in:   
+	input -> keyboard -> keyboard settings -> (input section)
+run/install the following:
+
+```
+yay -S virtualbox-host-modules-arch virtualbox
+```
+
+```
+sudo modprobe vboxdrv
+sudo modprobe vboxnetflt
+sudo modprobe vboxnetadp
+sudo vboxreload
+```
+> RE-LOG: Might require a reboot to take affect
