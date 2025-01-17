@@ -114,3 +114,19 @@ sudo modprobe vboxnetadp
 sudo vboxreload
 ```
 > RE-LOG: Might require a reboot to take affect
+
+## Virtual Box configuration
+
+Clipboard configuration:
+1. unmount the iso file (not needed after installation)
+   devices -> optical devices -> remove disk from virtual drive
+2. install the guest additions cd
+   `sudo sh VBoxLinusAdditions.run`
+3. set clipboard setting to "bidirectional"
+   settings -> general -> advanced -> Shared clipboard
+4. unmount the guest additions cd and reboot
+
+IP configuration:
+> Allows IP to show as a 192.168 host
+1. set attached to, to "Bridged Adapter"
+   settings -> network -> Adapter 1 -> Attached to
