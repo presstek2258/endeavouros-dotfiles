@@ -1,4 +1,4 @@
-LSPS = { "lua_ls", "clangd", "harper_ls", "pylsp", "jdtls" }
+LSPS = { "lua_ls", "clangd", "harper_ls", "pylsp", "jdtls", "ts_ls", "cssls", "html" }
 
 return {
   {
