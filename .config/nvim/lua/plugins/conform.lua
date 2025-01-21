@@ -10,6 +10,10 @@ return {
       shell = { "shfmt" },
       java = { "clang_format" },
       markdown = { "prettier" },
+      html = { "prettier" },
+      typescript = { "prettier" },
+      javascript = { "prettier" },
+      css = { "prettier" },
     },
   },
 }
