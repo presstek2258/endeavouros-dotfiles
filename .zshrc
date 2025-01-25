@@ -10,3 +10,8 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # sets brave as default browser for jupyter lab
 export BROWSER=brave jupyter lab
+
+# sets path for tmuxifier and starts it
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+eval "$(tmuxifier init -)"
+
