@@ -59,6 +59,10 @@ bindsym $mod+Return exec --no-startup-id alacritty
 # start brave Browser
 bindsym $mod+b exec --no-startup-id brave
 
+# start sticky note popup
+for_window [class="Alacritty" title="sticky"] floating enable
+bindsym $mod+s exec --no-startup-id ~/sticky/sticky.sh
+
 # kill focused window
 bindsym $mod+q kill
 
@@ -265,19 +269,6 @@ for_window [class="urxvt"] border pixel 2
 # color settings for bar and windows #
 ######################################
 
-# Define colors variables:
-set $darkbluetrans	#08052be6
-set $darkblue		#08052b
-set $lightblue		#5294e2
-set $urgentred		#e53935
-set $white		#ffffff
-set $black		#000000
-set $purple		#e345ff
-set $darkgrey		#383c4a
-set $grey		#b0b5bd
-set $mediumgrey		#8b8b8b
-set $yellowbrown	#e1b700
-
 # i3 config for colours
 # class                 border  bground text    indicator child_border
 client.focused          #89BFDD #89BFDD #010922 #89BFDD   #89BFDD
@@ -322,5 +313,3 @@ strip_workspace_name no
     binding_mode       #00020C #890620 #FFFFFF
   }
 }
-
-
