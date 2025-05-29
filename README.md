@@ -13,7 +13,7 @@ yay -Syu
 ```
 
 ```bash
-yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom zoxide neovim tmux pcloud-drive brave-bin htop xfce4-settings xclip ttf-jetbrains-mono ripgrep blueman shutter jupyterlab jdk libreoffice-still neofetch npm thonny
+yay -S alacritty starship zsh zsh-syntax-highlighting zsh-autosuggestions picom zoxide neovim tmux pcloud-drive brave-bin htop xfce4-settings xclip ttf-jetbrains-mono ripgrep blueman flameshot jupyterlab jdk libreoffice-still neofetch npm thonny xarchiver
 ```
 
 ## clone repo directly to your .config / .local
